@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cuentos</string>
+    <string name="enterName">Introduce tu nombre</string>
+    <string name="hint">Introduce tu nombre aqui</string>
+    <string name="btnText">Siguiente</string>
+    <string name="txtSelect">Selecciona una temática</string>
+    <string name="layoutOne">Casa Encantada</string>
+    <string name="layoutTwo">Bosque Maldito</string>
+    <string name="layouThree">Mansion Misteriosa</string>
+</resources>

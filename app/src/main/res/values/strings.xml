@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cuentos</string>
+    <string name="enterName">Enter your name</string>
+    <string name="hint">Enter your name here</string>
+    <string name="btnText">Next</string>
+    <string name="txtSelect">Choose a theme</string>
+    <string name="layoutOne">Haunted House</string>
+    <string name="layoutTwo">Cursed Forest</string>
+    <string name="layouThree">Mysterious Mansion</string>
+
+</resources>
