@@ -19,8 +19,8 @@ class TaleFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_tale, container, false)
 
         val protagonist = TaleFragmentArgs.fromBundle(requireArguments()).protagonist
-
-        view.findViewById<TextView>(R.id.name).text = protagonist
+        val casa = R.string.casaText
+        view.findViewById<TextView>(R.id.name).text = getString(casa).replace(Regex.fromLiteral("#nombre"),protagonist)
 
         return view
     }
