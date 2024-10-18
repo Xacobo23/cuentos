@@ -17,9 +17,10 @@ class TaleFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_tale, container, false)
-        val mensaje = TaleFragmentArgs.fromBundle(requireArguments()).protagonist
-        val nombre = view.findViewById<TextView>(R.id.name)
-        nombre.text = mensaje
+
+        val protagonist = TaleFragmentArgs.fromBundle(requireArguments()).protagonist
+
+        view.findViewById<TextView>(R.id.name).text = protagonist
 
         return view
     }

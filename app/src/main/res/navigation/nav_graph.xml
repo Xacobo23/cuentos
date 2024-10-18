@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_chooseFragment_to_taleFragment"
             app:destination="@id/taleFragment" />
+        <argument
+            android:name="name"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/taleFragment"

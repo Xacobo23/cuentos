@@ -22,7 +22,8 @@ class NameFragment : Fragment() {
             view.findNavController()
                 .navigate(NameFragmentDirections
                 .actionNameFragmentToChooseFragment(
-                    (view.findViewById<EditText>(R.id.nameP).text.toString())))
+                    view.findViewById<EditText>(R.id.nameP).text.toString()
+                ))
         }
         return view
     }
